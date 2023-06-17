@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 
+// For 3d page paintings
 export async function GET(request) {
     const { searchParams } = new URL(request.url)
     const query = searchParams.get('query');
